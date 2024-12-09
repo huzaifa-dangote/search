@@ -1,0 +1,105 @@
+.top_bar {
+  position: relative;
+  height: 50px;
+  margin: 2px 2px;
+}
+
+img {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  width: 74px;
+  height: 25px;
+  object-fit: none;
+}
+
+a {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.second_bar {
+  color: #d93025;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  margin: 30px 35px;
+}
+
+.page_line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.form_container {
+  margin: 50px 45px;
+}
+
+.form_container > span {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 450;
+}
+
+.inner_form_container {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 450;
+  margin-top: 20px;
+}
+
+.button_container, .form_label {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 750px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  align-items: stretch;
+}
+
+.form_label {
+  justify-content: space-between;
+}
+
+.form_label > input {
+  height: 30px;
+  flex-basis: 560px;
+  margin-left: 20px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 1px 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: inherit;
+  outline: none;
+}
+
+.form_label > input[type=text]:focus {
+  border: 1px solid #0088cc;
+  box-shadow: 0 1px 2px grey inset;
+}
+
+.button_container {
+  justify-content: flex-end;
+}
+
+.button_container > input {
+  height: 35px;
+  flex-basis: 100px;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial;
+  border-radius: 2px;
+  padding: 0 12px;
+}
+
+.button_container > input:hover {
+  background-color: #3481fe;
+}
+
+/*# sourceMappingURL=advancedStyles.css.map */
